@@ -1,0 +1,29 @@
+{
+  "name": "mojular-moj",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "node_modules/.bin/gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mojular/moj.git"
+  },
+  "author": {
+    "name": "Tyom Semonov",
+    "email": "inspiro@gmail.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mojular/moj/issues"
+  },
+  "homepage": "https://github.com/mojular/moj#readme",
+  "paths": {
+    "sass": [
+      "assets/sass"
+    ]
+  }
+}

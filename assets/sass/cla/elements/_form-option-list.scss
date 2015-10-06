@@ -1,0 +1,36 @@
+.form-option-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+
+  &.form-row {
+    margin-top: 10px;
+  }
+
+  li {
+    margin: 8px 0;
+
+    &:first-child {
+      margin-top: 0;
+    }
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+
+    &.m-separate {
+      margin-top: 20px;
+      padding-top: 20px;
+      border-top: 1px solid $grey-3;
+    }
+  }
+
+  &.inline {
+    display: inline-block;
+
+    li {
+      display: inline-block;
+      margin-right: .5em;
+    }
+  }
+}

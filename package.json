@@ -5,8 +5,7 @@
   "main": "index.js",
   "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "postinstall": "node_modules/.bin/gulp"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
@@ -21,8 +20,12 @@
     "url": "https://github.com/mojular/moj/issues"
   },
   "homepage": "https://github.com/mojular/moj#readme",
+  "dependencies": {
+    "mojular-govuk-elements": "mojular/govuk-elements#dev"
+  },
   "paths": {
     "sass": [
+      "node_modules/mojular-govuk-elements/assets/sass/",
       "assets/sass"
     ]
   }

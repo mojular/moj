@@ -14,6 +14,8 @@ Installation and usage are similar to [GOV.UK elements module](https://github.co
 
 ### Sass
 
+**Gulp**
+
 ```js
 // gulpfile.js
 
@@ -32,6 +34,20 @@ gulp.task('sass', function() {
     .pipe(sourcemaps.write('./'))
     .pipe(gulp.dest(paths.dest + 'css/'));
 ```
+
+**Rails**
+
+In `config/initializers/sass.rb`
+
+```ruby
+JSON.parse(IO.read("node_modules/mojular-govuk-elements/package.json"))['paths']['sass'].each do |p|
+  Sass.load_paths << File.expand_path("node_modules/mojular-govuk-elements/#{p}")
+end
+```
+
+Module’s import paths are defined in its `package.json` file. Import the into project’s `load_paths`.
+
+## Usage
 
 In your project’s main Sass file:
 

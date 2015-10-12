@@ -21,8 +21,8 @@
   },
   "homepage": "https://github.com/mojular/moj#readme",
   "dependencies": {
-    "mojular": "mojular/mojular#webpack",
-    "mojular-govuk-elements": "mojular/govuk-elements#dev"
+    "mojular": "mojular/mojular",
+    "mojular-govuk-elements": "mojular/govuk-elements"
   },
   "devDependencies": {
     "json-loader": "^0.5.3"

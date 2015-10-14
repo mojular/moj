@@ -1,21 +1,4 @@
-input,
-select,
-textarea {
-  font-size: 1em;
-
-  &:focus {
-    outline: 3px solid $yellow;
-  }
-}
-
 .form-control {
-  box-sizing: border-box;
-  border: 1px solid $grey-2;
-  width: 50%;
-  max-width: 100%;
-  padding: 4px;
-  vertical-align: middle;
-
   &.m-small {
     width: 8em;
   }
@@ -27,16 +10,6 @@ textarea {
   &.m-full {
     width: 100%;
   }
-}
-
-select.form-control {
-  background: $white;
-  width: auto;
-  height: 36px;
-}
-
-textarea {
-  min-height: 100px;
 }
 
 .input {

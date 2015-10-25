@@ -24,8 +24,8 @@ var sass = require('gulp-sass');
 var sourcemaps = require('gulp-sourcemaps');
 
 var importPaths = [];
-importPaths.push(require('mojular-govuk-elements').getPaths('sass'));
-importPaths.push(require('mojular-moj-elements').getPaths('sass'));
+importPaths.push(require('mojular-govuk-elements').sassPaths);
+importPaths.push(require('mojular-moj-elements').sassPaths);
 
 gulp.task('sass', function() {
   var result = gulp.src('path/to/your/local/styles/**/*.scss')

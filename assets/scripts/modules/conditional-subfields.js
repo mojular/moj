@@ -1,3 +1,4 @@
+require('mojular');
 var $ = require('jquery');
 
 Mojular.Modules.ConditionalSubfields = {

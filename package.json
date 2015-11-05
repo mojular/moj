@@ -24,6 +24,9 @@
     "mojular": "mojular/mojular",
     "mojular-govuk-elements": "mojular/govuk-elements"
   },
+  "devDependencies": {
+    "json-loader": "^0.5.3"
+  },
   "paths": {
     "sass": [
       "node_modules/mojular-govuk-elements/assets/sass/",

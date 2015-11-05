@@ -5,7 +5,7 @@ var zipObject = require('lodash/array/zipObject');
 var map = require('lodash/collection/map');
 var forOwn = require('lodash/object/forOwn');
 
-Mojular.Modules.LabelSelect = {
+exports.LabelSelect = {
   el: '.block-label, .radio-inline',
 
   init: function () {

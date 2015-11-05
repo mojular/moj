@@ -1,7 +1,6 @@
-require('mojular');
 var $ = require('jquery');
 
-Mojular.Modules.ConditionalSubfields = {
+exports.ConditionalSubfields = {
   el: '[data-controlled-by]',
 
   init: function() {

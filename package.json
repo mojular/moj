@@ -30,7 +30,7 @@
   "paths": {
     "sass": [
       "node_modules/mojular-govuk-elements/assets/sass/",
-      "assets/sass"
+      "sass"
     ]
   }
 }

@@ -1,7 +1,8 @@
-require('mojular');
+'use strict';
+
 var $ = require('jquery');
 
-Mojular.Modules.SkipToContent = {
+exports.SkipToContent = {
   init: function() {
     $('body').on('click', '.skip-link', function(e) {
       e.preventDefault();

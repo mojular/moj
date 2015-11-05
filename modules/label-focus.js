@@ -1,7 +1,6 @@
-require('mojular');
 var $ = require('jquery');
 
-Mojular.Modules.LabelFocus = {
+exports.LabelFocus = {
   el: '.block-label, .radio-inline',
 
   init: function () {

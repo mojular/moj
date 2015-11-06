@@ -2,7 +2,7 @@
   "name": "mojular-moj-elements",
   "version": "0.0.5",
   "description": "",
-  "main": "index.js",
+  "main": "./modules",
   "private": true,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -21,8 +21,11 @@
   },
   "homepage": "https://github.com/mojular/moj#readme",
   "dependencies": {
-    "mojular": "mojular/mojular",
-    "mojular-govuk-elements": "mojular/govuk-elements"
+    "jquery": "^1.11.1",
+    "lodash": "^3.10.1",
+    "merge": "^1.2.0",
+    "mojular": "mojular/mojular#refactor",
+    "mojular-govuk-elements": "mojular/govuk-elements#refactor"
   },
   "devDependencies": {
     "json-loader": "^0.5.3"

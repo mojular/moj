@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mojular/moj.git"
+    "url": "git+https://github.com/mojular/moj-elements.git"
   },
   "author": {
     "name": "Tyom Semonov",
@@ -17,9 +17,9 @@
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/mojular/moj/issues"
+    "url": "https://github.com/mojular/moj-elements/issues"
   },
-  "homepage": "https://github.com/mojular/moj#readme",
+  "homepage": "https://github.com/mojular/moj-elements#readme",
   "dependencies": {
     "jquery": "^1.11.1",
     "lodash": "^3.10.1",
@@ -32,7 +32,7 @@
   },
   "paths": {
     "sass": [
-      "node_modules/mojular-govuk-elements/assets/sass/",
+      "node_modules/mojular-govuk-elements/sass/",
       "sass"
     ]
   }

@@ -1,6 +1,6 @@
 {
   "name": "mojular-moj-elements",
-  "version": "0.0.5",
+  "version": "0.1.0",
   "description": "",
   "main": "./modules",
   "private": true,
@@ -24,8 +24,8 @@
     "jquery": "^1.11.1",
     "lodash": "^3.10.1",
     "merge": "^1.2.0",
-    "mojular": "mojular/mojular#refactor",
-    "mojular-govuk-elements": "mojular/govuk-elements#refactor"
+    "mojular": "mojular/mojular#0.1.0",
+    "mojular-govuk-elements": "mojular/govuk-elements#0.1.0"
   },
   "devDependencies": {
     "json-loader": "^0.5.3"

@@ -110,4 +110,4 @@ var find = require('lodash/collection/find');
 Webpack allows to require specific components of external libraries (e.g. Lodash). Rather than import the whole Lodash library each module specifies which component it needs. Webpack will build a custom version of Lodash in the end including only those components which are required in the whole of project files, making the output code smaller.
 
 
-For more ideas see [Mojular core structure](https://github.com/mojular/mojular/blob/master/assets/scripts/mojular.js).
+For more ideas see [Mojular core structure](https://github.com/mojular/mojular/blob/master/index.js).

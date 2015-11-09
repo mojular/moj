@@ -5,19 +5,19 @@ var zipObject = require('lodash/array/zipObject');
 var map = require('lodash/collection/map');
 var forOwn = require('lodash/object/forOwn');
 
-Mojular.Modules.LabelSelect = {
+exports.LabelSelect = {
   el: '.block-label, .radio-inline',
 
-  init: function () {
+  init: function() {
     bindAll(this, 'render');
     this.cacheEls();
     this.bindEvents();
     this.processQueryString();
   },
 
-  bindEvents: function () {
+  bindEvents: function() {
     this.$options
-      .on('change label-select', function () {
+      .on('change label-select', function() {
         var $el = $(this),
           $parent = $el.parent('label');
 
@@ -33,16 +33,16 @@ Mojular.Modules.LabelSelect = {
           $parent.removeClass('s-selected');
         }
       });
-    Mojular.Events.on('render LabelSelect.render', this.render);
+    this.base.Events.on('render LabelSelect.render', this.render);
   },
 
-  cacheEls: function () {
+  cacheEls: function() {
     this.$options = $(this.el).find('input[type=radio], input[type=checkbox]');
   },
 
-  processQueryString: function () {
+  processQueryString: function() {
     var queryStringPairs = location.search.slice(1).split('&');
-    queryStringPairs = map(function (item) {
+    queryStringPairs = map(function(item) {
       if (item) {
         var pair = item.split('=');
         return pair[1] ? pair : '';
@@ -53,15 +53,15 @@ Mojular.Modules.LabelSelect = {
     var queryStringObject = zipObject(queryStringPairs);
 
     // Select fields found in query string
-    forOwn(queryStringObject, function (value, key) {
+    forOwn(queryStringObject, function(value, key) {
       if (value) {
         $('[name="' + key + '"][value="' + value + '"]').click();
       }
     });
   },
 
-  render: function () {
-    this.$options.filter(':checked').each(function () {
+  render: function() {
+    this.$options.filter(':checked').each(function() {
       $(this).parent().addClass('s-selected');
     });
   }

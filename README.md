@@ -41,7 +41,7 @@ gulp.task('sass', function() {
 In `config/initializers/sass.rb`
 
 ```ruby
-JSON.parse(IO.read("node_modules/mojular-govuk-elements/package.json"))['paths']['sass'].each do |p|
+JSON.parse(IO.read("node_modules/mojular-govuk-elements/package.json"))['sassPaths'].each do |p|
   Sass.load_paths << File.expand_path("node_modules/mojular-govuk-elements/#{p}")
 end
 ```

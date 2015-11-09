@@ -30,10 +30,8 @@
   "devDependencies": {
     "json-loader": "^0.5.3"
   },
-  "paths": {
-    "sass": [
-      "node_modules/mojular-govuk-elements/sass/",
-      "sass"
-    ]
-  }
+  "sassPaths": [
+    "node_modules/mojular-govuk-elements/sass",
+    "node_modules/mojular-moj-elements/sass"
+  ]
 }

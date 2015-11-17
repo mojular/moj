@@ -7,7 +7,7 @@ Collection of design patterns and components used within MoJ for use with Mojula
 Install via NPM:
 
 ```
-npm install https://github.com/mojular/moj-elements/tarball/master --save
+npm install mojular/moj-elements --save
 ```
 
 Installation and usage are similar to [GOV.UK elements module](https://github.com/mojular/govuk-elements).

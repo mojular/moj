@@ -24,7 +24,7 @@
     "jquery": "^1.11.1",
     "lodash": "^3.10.1",
     "merge": "^1.2.0",
-    "mojular-templates": "mojular/templates"
+    "mojular-govuk-elements": "mojular/govuk-elements"
   },
   "devDependencies": {
     "json-loader": "^0.5.3"

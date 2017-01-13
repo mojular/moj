@@ -21,8 +21,8 @@
   },
   "homepage": "https://github.com/mojular/moj-elements#readme",
   "dependencies": {
-    "jquery": "^1.11.1",
-    "lodash": "^3.10.1",
+    "jquery": "^3.1.1",
+    "lodash": "^4.17.4",
     "merge": "^1.2.0",
     "mojular-govuk-elements": "mojular/govuk-elements"
   },
